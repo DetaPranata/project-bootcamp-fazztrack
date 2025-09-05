@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+nav img {
+  width: 40px;
+  height: 40px;
+}
+
+.intro p {
+  font-family: "Rancho", sans-serif;
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+hr {
+  margin-top: 3%;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  border-top: solid white 2px;
+}
+
+.content {
+  width: 86%;
+  background-color: white;
+  border: solid 4px rgb(79, 79, 255);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  color: rgb(255, 208, 0);
+  padding: 2%;
+}
+
+.content2 {
+  width: 86%;
+  background-color: white;
+  border: solid 4px rgb(255, 208, 0);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  color: rgb(79, 79, 255);
+  padding: 2%;
+}
+
+.content ol,
+ul {
+  margin-left: 3%;
+}
+
+button {
+  color: white;
+  background-color: rgb(255, 208, 0);
+  width: 90%;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 3%;
+  padding: 1%;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: rgb(255, 208, 0);
+}
+
+footer {
+  padding-top: 2%;
+  padding-bottom: 7%;
+}
+
+footer p {
+  text-align: center;
+}
