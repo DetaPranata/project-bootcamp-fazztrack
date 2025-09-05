@@ -50,14 +50,14 @@ hr {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  color: rgb(255, 208, 0);
+  color: rgb(255, 153, 0);
   padding: 2%;
 }
 
 .content2 {
   width: 86%;
   background-color: white;
-  border: solid 4px rgb(255, 208, 0);
+  border: solid 4px rgb(255, 153, 0);
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
@@ -72,7 +72,7 @@ ul {
 
 button {
   color: white;
-  background-color: rgb(255, 208, 0);
+  background-color: rgb(255, 153, 0);
   width: 90%;
   display: block;
   text-align: center;
@@ -85,7 +85,8 @@ button {
 }
 
 button:hover {
-  background-color: rgb(255, 208, 0);
+  transition-duration: 0.2s;
+  background-color: rgb(184, 111, 1);
 }
 
 footer {
